@@ -9,7 +9,7 @@ TARGET_URL = "https://www.nlb.lk/results/mahajana-sampatha"
 
 # --- Database ---
 # This will create a file named 'lottery.db' in the main 'lottery_pipeline' folder
-DATABASE_URI = "sqlite:///../lottery.db"
+DATABASE_URI = "sqlite:///lottery.db"
 TABLE_NAME = "mahajana_sampatha"
 
 # --- Scraper Settings ---
