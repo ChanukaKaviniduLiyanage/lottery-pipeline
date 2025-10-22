@@ -49,11 +49,11 @@ It is built to handle dynamic, JavaScript-loaded content and run on a fully auto
 
 2.  **Create a virtual environment:**
     ```bash
-    python -m venv venv
+    python -m venv lottery
     # On Windows
-    venv\Scripts\activate
+    lottery\Scripts\activate
     # On Mac/Linux
-    source venv/bin/activate
+    source lottery/bin/activate
     ```
 
 3.  **Install requirements:**
