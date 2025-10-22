@@ -1,0 +1,41 @@
+2025-10-22 12:50:50,082 - INFO - Pipeline started.
+2025-10-22 12:50:50,082 - INFO - Fetching data from https://www.nlb.lk/results/mahajana-sampatha
+2025-10-22 12:50:51,269 - INFO - Parsing HTML content...
+2025-10-22 12:50:51,295 - WARNING - Could not find results container with classes 'w0 tbl'.
+2025-10-22 12:50:51,302 - INFO - Optimized: Freed memory by deleting raw HTML content.
+2025-10-22 12:50:51,302 - ERROR - Pipeline stopped: No data was parsed from the page.
+2025-10-22 12:53:20,286 - INFO - Pipeline started.
+2025-10-22 12:53:20,286 - INFO - Fetching data from https://www.nlb.lk/results/mahajana-sampatha
+2025-10-22 12:53:21,421 - INFO - Parsing HTML content...
+2025-10-22 12:53:21,425 - WARNING - Could not find any result rows with classes 'row result-row-border'.
+2025-10-22 12:53:21,428 - INFO - Optimized: Freed memory by deleting raw HTML content.
+2025-10-22 12:53:21,428 - ERROR - Pipeline stopped: No data was parsed from the page.
+2025-10-22 13:01:04,277 - INFO - Pipeline started.
+2025-10-22 13:01:04,277 - INFO - Fetching data from https://www.nlb.lk/results/mahajana-sampatha
+2025-10-22 13:01:05,418 - INFO - Parsing HTML content...
+2025-10-22 13:01:05,423 - WARNING - Could not find results table with classes 'w0 tbl'.
+2025-10-22 13:01:05,427 - INFO - Optimized: Freed memory by deleting raw HTML content.
+2025-10-22 13:01:05,427 - ERROR - Pipeline stopped: No data was parsed from the page.
+2025-10-22 13:24:07,377 - INFO - Pipeline started. Initializing WebDriver...
+2025-10-22 13:24:07,377 - INFO - ====== WebDriver manager ======
+2025-10-22 13:24:08,788 - INFO - Get LATEST chromedriver version for google-chrome
+2025-10-22 13:24:09,407 - INFO - Get LATEST chromedriver version for google-chrome
+2025-10-22 13:24:10,841 - INFO - There is no [win64] chromedriver "141.0.7390.122" for browser google-chrome "141.0.7390" in cache
+2025-10-22 13:24:10,842 - INFO - Get LATEST chromedriver version for google-chrome
+2025-10-22 13:24:12,102 - INFO - WebDriver version 141.0.7390.122 selected
+2025-10-22 13:24:12,109 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/141.0.7390.122/win32/chromedriver-win32.zip
+2025-10-22 13:24:12,110 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/141.0.7390.122/win32/chromedriver-win32.zip
+2025-10-22 13:24:12,691 - INFO - Driver downloading response is 200
+2025-10-22 13:24:13,715 - INFO - Get LATEST chromedriver version for google-chrome
+2025-10-22 13:24:15,380 - INFO - Driver has been saved in cache [C:\Users\Chunky\.wdm\drivers\chromedriver\win64\141.0.7390.122]
+2025-10-22 13:24:17,676 - INFO - Fetching data from https://www.nlb.lk/results/mahajana-sampatha using Selenium...
+2025-10-22 13:24:21,018 - INFO - JavaScript content (results table) has loaded.
+2025-10-22 13:24:22,042 - INFO - Parsing HTML content...
+2025-10-22 13:24:22,286 - INFO - Found 208 draw rows to parse.
+2025-10-22 13:24:22,622 - INFO - Optimized: Freed memory by deleting raw HTML content.
+2025-10-22 13:24:22,622 - INFO - Successfully scraped 208 total results from the page.
+2025-10-22 13:24:22,929 - INFO - Table not found. Assuming this is the first run.
+2025-10-22 13:24:22,929 - INFO - Found 0 draws already in the database.
+2025-10-22 13:24:23,031 - INFO - Found 208 new results to save.
+2025-10-22 13:24:23,222 - INFO - Successfully saved 208 new records to the database.
+2025-10-22 13:24:25,351 - INFO - Pipeline run finished. WebDriver closed.

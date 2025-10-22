@@ -1,0 +1,8 @@
+# requirements.txt
+requests
+beautifulsoup4
+pandas
+sqlalchemy
+lxml
+selenium
+webdriver-manager
